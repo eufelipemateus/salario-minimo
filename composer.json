@@ -1,4 +1,14 @@
-{
+{	
+	"name": "felipefm32/get-salario-minimo",
+    "description": "Retorna array de salarios do url http://www.guiatrabalhista.com.br/guia/salario_minimo.htm",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felipe Mateus",
+            "email": "contato@felipefm32.com.br"
+        }
+    ],
     "require": {
         "guzzlehttp/guzzle": "~6.0"
     }
