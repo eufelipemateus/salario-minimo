@@ -15,6 +15,13 @@ use Felipefm32\SalarioMinimo;
 print_r(SalarioMinimo::getJson());
 ```
 
+## Funções
+
+### getArray()
+
+### getJson()
+
+
 ## Autor
 
  **[Felipe Mateus](https://felipefm32.com)** - [@Felipefm32](https://github.com/felipefm32)
