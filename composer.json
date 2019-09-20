@@ -1,5 +1,5 @@
 {	
-	"name": "felipefm32/get-salario-minimo",
+	"name": "felipefm32/lista-salario-minimo",
 	"version":"0.0.1",
     "description": "Retorna Lista de salarios minimo do url http://www.guiatrabalhista.com.br/guia/salario_minimo.htm",
     "type": "library",

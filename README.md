@@ -1,4 +1,4 @@
-# Sálario Minimo
+# Salário Minimo
 Esta biblioteca retorna a lista de urls do site  http://www.guiatrabalhista.com.br/guia/salario_minimo.htm
 
 ## Instalando
