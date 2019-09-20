@@ -50,6 +50,5 @@ class SalarioMinimo
 	
 	public static function getJson(){
 		return json_encode(SalarioMinimo::getArray()); //retornando resultado final
-;
 	}
 }
