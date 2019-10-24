@@ -1,14 +1,14 @@
 {	
-	"name": "felipefm32/lista-salario-minimo",
-	"version":"0.0.1",
-    "description": "Retorna Lista de salarios minimo do url http://www.guiatrabalhista.com.br/guia/salario_minimo.htm",
+	"name": "felipefm32/salario-minimo",
+	"version":"0.0.2",
+    "description": "Classe php que pega lista de salario minimo do url http://www.guiatrabalhista.com.br/guia/salario_minimo.htm",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Felipe Mateus",
             "email": "contato@felipefm32.com.br",
-			"homepage": "https://felipefm32.com"
+			"homepage": "https://felipemateus.com"
         }
     ],
     "require": {

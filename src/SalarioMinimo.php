@@ -44,6 +44,10 @@ class SalarioMinimo
 		return $ResultadoFinal;
     }
 	
+	public static function getSalarioAtual(){
+		return self::getList()[0];
+	}
+	
 	public static function getArray(){
 		return self::getList();
 	}
