@@ -46,7 +46,7 @@ class SalarioMinimo
 		return $ResultadoFinal;
 	}
 	
-	function parserMoney($valor){
+	private static function parserMoney($valor){
 		$valor = trim($valor);
 		$valor = preg_replace('/\s+/', '', $valor);
 		return  str_replace('R$', '', $valor);
