@@ -1,6 +1,8 @@
 <?php
+
 require 'vendor/autoload.php';
 
-use Felipefm32\SalarioMinimo;
+use EuFelipeMateus\SalarioMinimo;
 
-print_r(SalarioMinimo::getJson()); //retornando resultado final
+
+print_r(SalarioMinimo::getJson());

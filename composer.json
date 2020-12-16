@@ -1,6 +1,6 @@
 {	
-	"name": "felipefm32/salario-minimo",
-	"version":"0.0.2",
+	"name": "eufelipemateus/salario-minimo",
+	"version":"0.0.3",
     "description": "Classe php que pega lista de salario minimo do url http://www.guiatrabalhista.com.br/guia/salario_minimo.htm",
     "type": "library",
     "license": "MIT",
@@ -12,13 +12,13 @@
         }
     ],
     "require": {
-		"php": ">=5.6.0",
+		"php": ">=7.4.0",
         "guzzlehttp/guzzle": "~6.0"
     },
-	"homepage":"https://github.com/felipefm32/getSalarioMinimo",
+	"homepage":"https://github.com/eufelipemateus/SalarioMinimo",
 	"autoload": {
         "psr-4": {
-            "Felipefm32\\": "src/"
+            "EuFelipeMateus\\": "src/"
         }
     }
 

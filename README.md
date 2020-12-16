@@ -26,4 +26,4 @@ print_r(SalarioMinimo::getJson());
 
 ## Autor
 
- **[Felipe Mateus](https://felipemateus.com)** - [@Felipefm32](https://github.com/felipefm32)
+ **[Felipe Mateus](https://felipemateus.com)** - [@eufelipemateus](https://github.com/eufelipemateus)
