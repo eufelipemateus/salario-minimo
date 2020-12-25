@@ -17,12 +17,10 @@ class SalarioMinimo
 		$index=0;
 		$ResultadoFinal;
 
-
 		$response = $client->get(self::$url);//pegando site
-
 		preg_match('/<table.*?>(.*?)<\/table>/si', $response->getBody(), $matches); //pegar trecho de codigo onde esta a tabela
 	
-		$doc->loadHTML($matches[0]);//Carregando tabela no domdocument.
+		@$doc->loadHTML($matches[0]);//Carregando tabela no domdocument.
 
 		$tbody = $doc->getElementsByTagName('tbody')->item(0);
 	
@@ -49,6 +47,7 @@ class SalarioMinimo
 	private static function parserMoney($valor){
 		$valor = trim($valor);
 		$valor = preg_replace('/\s+/', '', $valor);
+		$valor = preg_replace('/\xc2\xa0/', '', $valor);
 		return  str_replace('R$', '', $valor);
 	}
 	

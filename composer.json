@@ -1,25 +1,39 @@
 {	
 	"name": "eufelipemateus/salario-minimo",
-	"version":"0.0.3",
-    "description": "Classe php que pega lista de salario minimo do url http://www.guiatrabalhista.com.br/guia/salario_minimo.htm",
+	"version":"0.0.4",
+    "description": "Bibliotega php que pega lista de salario minimo do url http://www.guiatrabalhista.com.br/guia/salario_minimo.htm",
     "type": "library",
+    "keywords": [
+        "lib",
+        "http",
+        "rest",
+        "salario",
+        "salario-minimo",
+        "Brasil",
+        "Salario-Brasil",
+        "PHP",
+        "Laravel",
+        "Salary",
+        "Valor",
+        "Value-Salary",
+        "Lista"
+    ],
     "license": "MIT",
     "authors": [
         {
             "name": "Felipe Mateus",
-            "email": "contato@felipefm32.com.br",
-			"homepage": "https://felipemateus.com"
+            "email": "eu@felipemateus.com",
+			"homepage": "https://eufelipemateus.com"
         }
     ],
     "require": {
 		"php": ">=7.4.0",
-        "guzzlehttp/guzzle": "~6.0"
+        "guzzlehttp/guzzle": "~7.2.0"
     },
-	"homepage":"https://github.com/eufelipemateus/SalarioMinimo",
+	"homepage":"https://github.com/eufelipemateus/salario-minimo",
 	"autoload": {
         "psr-4": {
             "EuFelipeMateus\\": "src/"
         }
     }
-
 }
