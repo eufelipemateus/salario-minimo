@@ -12,7 +12,7 @@ composer require felipefm32/get-salario-minimo
 ```php
 use EuFelipeMateus\SalarioMinimo;
 
-print_r(SalarioMinimo::getJson());
+print_r(SalarioMinimo::getSalarioAtual());
 ```
 
 ## Funções
