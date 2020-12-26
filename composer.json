@@ -1,7 +1,7 @@
 {	
 	"name": "eufelipemateus/salario-minimo",
-	"version":"0.0.4",
-    "description": "Bibliotega php que pega lista de salario minimo do url http://www.guiatrabalhista.com.br/guia/salario_minimo.htm",
+	"version":"1.0.0",
+    "description": "Esta é uma biblioteca php que retorna uma lista de salarios minimos desde 1994.",
     "type": "library",
     "keywords": [
         "lib",
@@ -28,12 +28,17 @@
     ],
     "require": {
 		"php": ">=7.4.0",
-        "guzzlehttp/guzzle": "~7.2.0"
+        "guzzlehttp/guzzle": "~7.2.0",
+        "atlas/orm": "~3.0"
     },
-	"homepage":"https://github.com/eufelipemateus/salario-minimo",
+    "require-dev": {
+        "atlas/cli": "~2.0"
+    },
+	"homepage":"https://lista-salario-minimo.herokuapp.com/",
 	"autoload": {
         "psr-4": {
-            "EuFelipeMateus\\": "src/"
+            "EuFelipeMateus\\": "src/",
+            "DataSource\\": "src/DataSource"
         }
     }
 }

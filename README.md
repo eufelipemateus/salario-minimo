@@ -1,5 +1,5 @@
 # Salário Minimo
-Esta biblioteca retorna a lista de urls do site  http://www.guiatrabalhista.com.br/guia/salario_minimo.htm
+Esta biblioteca retorna Lista de salarios minimos desde 1994.
 
 ## Instalando
 
@@ -10,7 +10,7 @@ composer require felipefm32/get-salario-minimo
 ## Usando
 
 ```php
-use Felipefm32\SalarioMinimo;
+use EuFelipeMateus\SalarioMinimo;
 
 print_r(SalarioMinimo::getJson());
 ```
@@ -26,4 +26,4 @@ print_r(SalarioMinimo::getJson());
 
 ## Autor
 
- **[Felipe Mateus](https://felipemateus.com)** - [@eufelipemateus](https://github.com/eufelipemateus)
+ **[Felipe Mateus](https://eufelipemateus.com)** - [@eufelipemateus](https://github.com/eufelipemateus)
