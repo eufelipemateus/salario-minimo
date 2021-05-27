@@ -1,4 +1,4 @@
-# Salário Minimo
+# Salário Minimo - [Archived]
 Esta biblioteca retorna Lista de salarios minimos desde 1994.
 
 ## Instalando
