@@ -28,7 +28,7 @@
     ],
     "require": {
 		"php": ">=7.4.0",
-        "guzzlehttp/guzzle": "~7.2.0",
+        "guzzlehttp/guzzle": "~7.2.0 || ~7.4.0",
         "atlas/orm": "~3.0",
         "ext-pdo_sqlite": "*"
     },
